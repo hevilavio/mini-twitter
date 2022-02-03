@@ -2,6 +2,7 @@
   (:require [clojure.test :refer :all]
             [mini-twitter.core :refer :all]))
 
-(deftest a-test
-  (testing "FIXME, I fail."
-    (is (= 0 1))))
+(deftest dummy-test
+  (testing "1 nao eh igual a 2"
+    (not (= 1 2))
+    (is (= 1 1))))

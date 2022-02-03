@@ -1,4 +1,4 @@
-(ns mini_twitter.validator)
+(ns mini-twitter.validator)
 
 
 (defn valid-tweet? [tweet]

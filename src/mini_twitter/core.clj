@@ -1,7 +1,7 @@
 (ns mini-twitter.core
   (:require
-    [mini_twitter.db :as db]
-    [mini_twitter.validator :as validator]
+    [mini-twitter.db :as db]
+    [mini-twitter.validator :as validator]
     [compojure.core :refer :all]
     [compojure.route :as route]
     [cheshire.core :as json]
